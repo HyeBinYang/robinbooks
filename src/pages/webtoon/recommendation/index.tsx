@@ -1,3 +1,4 @@
+import Header from "@/src/components/common/Header";
 import Navigation from "@/src/components/common/Navigation";
 import axios from "axios";
 import React, { useEffect, useState } from "react";
@@ -12,6 +13,7 @@ const Recommendation = () => {
   return (
     <div>
       <Navigation />
+      <Header />
     </div>
   );
 };
