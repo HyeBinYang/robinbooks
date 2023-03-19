@@ -4,12 +4,10 @@ import React, { InputHTMLAttributes } from "react";
 import Search from "./Icons/Search";
 
 const SearchBarContainer = styled(FlexContainer)`
-  width: 250px;
   height: 100%;
-  margin-right: 8px;
   padding: 10px;
   background-color: #f0f0f0;
-  border-radius: 6px;
+  border-radius: 8px;
 
   .icon {
     width: 20px;
@@ -27,9 +25,7 @@ const SearchBarContainer = styled(FlexContainer)`
   }
 `;
 
-interface SearchBarProps extends InputHTMLAttributes<HTMLInputElement> {
-  onSearch: any;
-}
+interface SearchBarProps extends InputHTMLAttributes<HTMLInputElement> {}
 
 const SearchBar = ({ ...inputAttrs }: SearchBarProps) => {
   return (

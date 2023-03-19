@@ -15,6 +15,7 @@ const NavContainer = styled(FlexContainer)<NavStyleProps>`
 
   @media screen and (max-width: 768px) {
     & {
+      height: 40px;
       background-color: #000;
       border-bottom: none;
     }
@@ -62,7 +63,7 @@ const Navigation = () => {
   const router = useRouter();
 
   return (
-    <NavContainer alignItems="center" justifyContent="space-between">
+    <NavContainer as="nav" alignItems="center" justifyContent="space-between">
       <NavLinks as="ul" className="left">
         <NavLink active={router.pathname === Routes.webtoon.recommendation}>
           <Link href={Routes.webtoon.recommendation}>웹툰/만화</Link>
