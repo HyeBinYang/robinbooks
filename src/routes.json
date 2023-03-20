@@ -1,5 +1,6 @@
 {
   "webtoon": {
-    "recommendation": "/webtoon/recommendation"
+    "recommendation": "/webtoon/recommendation",
+    "romance": "/webtoon/romance"
   }
 }

@@ -1,14 +1,10 @@
-import Header from "@/src/components/common/Header";
-import Navigation from "@/src/components/common/Navigation";
+import { useRouter } from "next/router";
 import React from "react";
 
 const Recommendation = () => {
-  return (
-    <div>
-      <Navigation />
-      <Header />
-    </div>
-  );
+  const router = useRouter();
+
+  return <main></main>;
 };
 
 export default Recommendation;

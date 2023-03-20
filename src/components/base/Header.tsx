@@ -2,8 +2,8 @@ import { FlexContainer } from "@/src/styles/flex";
 import styled from "@emotion/styled";
 import Link from "next/link";
 import React from "react";
-import Bell from "./Icons/Bell";
-import SearchBar from "./SearchBar";
+import Bell from "../common/Icons/Bell";
+import SearchBar from "../common/SearchBar";
 
 const HeaderContainer = styled(FlexContainer)`
   padding: 16px 20px;
